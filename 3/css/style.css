@@ -1,0 +1,79 @@
+.heading {
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--font-color-dark);
+  text-transform: uppercase;
+}
+
+.heading--big {
+  font-size: 21px;
+}
+
+.intro {
+  background-color: rgba(129, 179, 210, 0.6);
+  background-image: url(../../img/intro-background.jpg);
+}
+
+.modal {
+  display: none;
+}
+
+.page {
+  height: 100%;
+}
+
+.page__body {
+  min-height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font: 400 14px/21px var(--font-base);
+  color: var(--font-color-base);
+}
+
+.page__main {
+  flex-grow: 1;
+}
+
+.subheading {
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--font-color-dark);
+  text-transform: uppercase;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+:root {
+  --background-base: #81B3D2;
+  --font-base: "PT Sans", Arial, Tahoma, sans-serif;
+  --font-color-base: #333333;
+  --font-color-dark: #000000;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsansbold.woff2") format("woff2");
+  font-display: swap;
+}
+/*# sourceMappingURL=style.css.map */
